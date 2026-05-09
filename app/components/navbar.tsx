@@ -25,9 +25,12 @@ export default function Navbar() {
           {/* Bagian Logo */}
           <div className="flex shrink-0 items-center">
             <Link href="/" className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#275c53] text-white font-serif text-xl">
-                A
-              </div>
+              {/* Ini bagian yang diubah! Huruf 'A' diganti dengan gambar logo */}
+              <img 
+                src="/logo.png" 
+                alt="Bali Mahasadu Logo" 
+                className="w-10 h-10 object-contain" 
+              />
               <span className="font-serif text-2xl font-medium text-[#1c3832]">
                 Balimahasadu
               </span>
@@ -88,8 +91,8 @@ export default function Navbar() {
 
       {/* Panel Menu Mobile */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-[#f8f9f6] border-t border-gray-200 absolute w-full">
-          <div className="space-y-1 px-4 pb-4 pt-2 shadow-lg">
+        <div className="md:hidden bg-[#f8f9f6] border-t border-gray-200 absolute w-full z-50">
+          <div className="space-y-1 px-4 pb-4 pt-2 shadow-lg bg-[#f8f9f6]">
             {navLinks.map((link) => {
               const isActive = pathname === link.href
               return (
