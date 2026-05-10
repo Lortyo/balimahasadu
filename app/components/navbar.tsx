@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-3">
               {/* Ini bagian yang diubah! Huruf 'A' diganti dengan gambar logo */}
               <img 
-                src="/logo.png" 
+                src="/logo.svg" 
                 alt="Bali Mahasadu Logo" 
                 className="w-10 h-10 object-contain" 
               />

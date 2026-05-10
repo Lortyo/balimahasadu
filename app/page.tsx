@@ -17,7 +17,7 @@ export default function HomePage() {
           SECTION 1: HERO
           Tinggi di-set menyesuaikan sisa layar setelah dikurangi Navbar (96px)
       ========================================= */}
-      <section className="min-h-[calc(100vh-96px)] flex items-center w-full py-10 md:py-0">
+      <section className="min-h-[calc(100vh-96px)] flex items-center w-full py-10 md:py-0 bg-[#F4F7F5]">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
           
           {/* Kolom Kiri: Teks & CTA (order-2 di mobile, order-1 di desktop) */}
@@ -41,7 +41,7 @@ export default function HomePage() {
           {/* Kolom Kanan: Gambar (order-1 di mobile, order-2 di desktop) */}
           <div className="flex justify-center items-center md:p-1 lg:p-1 order-1 md:order-2">
             <img 
-              src="/logo.png" 
+              src="/logo.svg" 
               alt="Bali Mahasadu Logo" 
               // Lebar gambar disesuaikan agar tidak terlalu besar di HP (w-48)
               className="w-48 sm:w-64 md:w-full max-w-[280px] md:max-w-[340px] lg:max-w-[394px] h-auto object-contain drop-shadow-md"
