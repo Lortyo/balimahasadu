@@ -1,9 +1,3 @@
-import { Inter, Playfair_Display } from 'next/font/google';
-
-// Konfigurasi Font
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
-
 export const metadata = {
   title: "Traditional Wellness & Relaxation | Bali Mahasadu",
 };
@@ -11,7 +5,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     // Wrapper Utama: Menampung seluruh section di dalam halaman ini
-    <div className={`flex-1 flex flex-col w-full ${inter.variable} ${playfair.variable} font-sans`}>
+    <div className={`flex-1 flex flex-col w-full font-sans`}>
       
       {/* =========================================
           SECTION 1: HERO

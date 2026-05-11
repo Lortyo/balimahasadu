@@ -31,7 +31,7 @@ export default function Navbar() {
                 alt="Bali Mahasadu Logo" 
                 className="w-10 h-10 object-contain" 
               />
-              <span className="font-serif text-2xl font-medium text-[#1c3832]">
+              <span className="font-playfair text-2xl font-medium text-[#1c3832]">
                 Balimahasadu
               </span>
             </Link>

@@ -10,10 +10,10 @@ export default function Footer() {
           
           {/* Column 1: Brand & Description */}
           <div className="flex flex-col">
-            <Link href="/" className="flex items-center gap-3 mb-6">
+            <Link href="/" className="flex items-center gap-1 mb-6">
                 <img src="/logo.svg" alt="Bali Mahasadu" className="w-11 h-11 object-contain" />
               {/* font-serif dihapus, pakai font default yang lebih modern */}
-              <span className="text-[1.35rem] font-bold tracking-wide">
+              <span className="text-[1.35rem] font-playfair font-semibold tracking-wide">
                 Bali Mahasadu
               </span>
             </Link>

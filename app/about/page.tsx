@@ -1,9 +1,3 @@
-import { Inter, Playfair_Display } from 'next/font/google';
-
-// Konfigurasi Font
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
-
 export const metadata = {
   title: "About Us | Bali Mahasadu",
   description: "Learn more about Bali Mahasadu's mission to empower visually impaired therapists.",
@@ -12,7 +6,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     // Wrapper Utama: Menampung seluruh konten dengan background off-white
-    <div className={`flex-1 flex flex-col w-full bg-[#F5F5F0] ${inter.variable} ${playfair.variable} font-sans`}>
+    <div className={`flex-1 flex flex-col w-full bg-[#F5F5F0] font-sans`}>
       
       {/* =========================================
           SECTION 1: HERO
