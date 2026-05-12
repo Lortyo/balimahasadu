@@ -88,8 +88,13 @@ export default function ProductsPage() {
             </div>
 
             <div className="pt-4">
-              <a href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max">
-                Inquire About This Product &rarr;
+              <a 
+                href="https://wa.me/6281234567890?text=Halo%20Bali%20Mahasadu,%20saya%20tertarik%20dengan%20produk%20Herbal%20Incense." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max"
+                >
+                Inquire via WhatsApp &rarr;
               </a>
             </div>
           </div>
@@ -144,8 +149,13 @@ export default function ProductsPage() {
             </div>
 
             <div className="pt-4">
-              <a href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max">
-                Inquire About This Product &rarr;
+              <a 
+                href="https://wa.me/6281234567890?text=Halo%20Bali%20Mahasadu,%20saya%20tertarik%20dengan%20produk%20Herbal%20Incense." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max"
+                >
+                Inquire via WhatsApp &rarr;
               </a>
             </div>
           </div>
@@ -206,8 +216,13 @@ export default function ProductsPage() {
             </div>
 
             <div className="pt-4">
-              <a href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max">
-                Inquire About This Product &rarr;
+              <a 
+                href="https://wa.me/6281234567890?text=Halo%20Bali%20Mahasadu,%20saya%20tertarik%20dengan%20produk%20Herbal%20Incense." 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#275c53] text-white font-medium rounded-xl text-sm hover:bg-[#1e4740] transition-colors w-max"
+                >
+                Inquire via WhatsApp &rarr;
               </a>
             </div>
           </div>
